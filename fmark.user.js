@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FMark
 // @namespace    https://horner.tj/
-// @version      0.2
+// @version      0.3
 // @description  Enables Markdown on Facebook
 // @author       TJ Horner
 // @match        *://*.facebook.com/*

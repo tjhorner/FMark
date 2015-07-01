@@ -11,7 +11,7 @@
 
 FacebookMarkdown = (function(){
   var getUserContent = function(){
-    return $(".userContent:not([fmark-replaced]) p, .UFICommentBody:not([fmark-replaced]) span");
+    return $(".userContent:not([fmark-replaced]) p, .UFICommentBody:not([fmark-replaced]) span, ._5yl5:not([fmark-replaced]) span");
   };
   
   var replaceUserContent = function(){

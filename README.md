@@ -8,7 +8,7 @@ Enable Markdown on Facebook comments and posts.
 
 With [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) installed, click this attractive install button:
 
-<div style="width: 100%; background-image: -webkit-linear-gradient(#79d858, #569e3d); background-image: background-image: linear-gradient(#79d858, #569e3d); font-size: 3em; text-align: center">INSTALL</div>
+<h3><a href="https://github.com/tjhorner/FMark/raw/master/fmark.user.js" style="font-size: 3em">INSTALL</a></h3>
 
 It's that simple! If you install FMark, please give it a star (and tell your friends if you like it, too!) Thanks!
 

@@ -6,6 +6,7 @@
 // @author       TJ Horner
 // @match        *://*.facebook.com/*
 // @require      https://raw.githubusercontent.com/chjj/marked/master/lib/marked.js
+// @require      https://code.jquery.com/jquery.js
 // @grant        none
 // ==/UserScript==
 

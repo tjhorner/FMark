@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FMark
 // @namespace    https://horner.tj/
-// @version      0.4
+// @version      0.4.1
 // @description  Enables Markdown on Facebook
 // @author       TJ Horner
 // @match        https://www.facebook.com/*
@@ -67,7 +67,7 @@ if(typeof(facebook) !== "undefined"){
             // bug
             $e.parent().find(".fmarker").remove();
             if(user.hasExtension){
-              $e.parent().prepend("<span class='fmarker' title='This user uses FMark!'>(+FM)</span> ");
+              $e.parent().prepend("<span class='fmarker' title='This user uses FMark!'>(+FM)" + (if(user.version !== GM_info.script.version) " [v" + user.version + "]") + "</span> ");
               $e.attr("fmark-checked", true);
             }else{
               $e.parent().prepend("<span class='fmarker' title='This user does not use FMark.'>(-FM)</span> ");
